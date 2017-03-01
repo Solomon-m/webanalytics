@@ -1,0 +1,201 @@
+@CHARSET "ISO-8859-1";
+
+bodys{
+	overflow: auto;
+}
+#Header{
+	padding-top:20px;
+	padding-right:10px;	
+	text-align : right;
+	height:40px;
+	width:100%;
+	border :1px solid black;
+	color: red
+	
+}
+.notifyjs-corner{
+	width:100%;
+	
+}
+.login{
+	width:200px;
+	height:50px;
+}
+#profilelists{
+	text-align:center;
+}
+.emailHead{
+	margin-top: -18px;
+margin-left: 5px
+}
+#formvalues{	
+	padding-left: 9px;
+    padding-top: 8px;
+	background-color:#D3D3D3;
+	float:right;
+}
+#header{
+	width:104%;
+	height:70px;
+	background-color:#1F1F1F;
+	color:#445566;
+	margin :-8px 20px 0px -10px;
+	box-shadow:3px 3px 3px #5C5C5C;
+	border:0px;
+	
+	
+}
+.div-align{
+	padding-right: 0px;
+     padding-left: 0px;
+}
+#title{
+	float:left;
+	padding-left:10px;
+	color:#ffffff;
+	font-family:Arial;
+	
+}
+#loginurl{
+	margin-top:5%;
+	margin-left:43%;
+	width:200px;
+	height:50px;
+	background-color:#29763E;	
+	border-radius:8px;
+	text-align:center;
+	padding-top:2%;
+	border:3px solid #ffffff;
+	box-shadow:2px 3px 3px #5C5C5C;
+	
+	
+}
+#logintag{
+	color:#ffffff;
+	text-decoration:none;
+	font-family:Arial;
+	font-size:18;
+}
+
+#emaildivi{
+		
+	float:right;
+}
+#userProfile{
+	
+	float:right;
+	border:1px solid #000000;
+	
+}
+/*User defined list Division*/
+.col-sm-5{
+	float:left;
+	padding-left: 66px;
+	/*background-color:#D3D3D3;*/
+}
+
+
+
+
+
+.head-grp{	
+	
+	/*margin-bottom: 20px;  margin-left: 10px;*/ 
+}
+.profilemerge{
+	border : 1px;
+	
+	
+}
+.cus{
+ margin-bottom: 5px;	
+}
+#email{
+	background:url("/css/images/Email.png") ;
+	width:32px;
+	height:32px;
+	border:0;
+}
+#download{
+	background:url("/css/images/download.png");
+	width:32px;
+	height:32px;	
+	border:0;
+}
+.apply{
+	background:url("/css/images/apply.png");
+	width:32px;
+	height:32px;	
+	border:0;
+}
+.delete{
+	background:url("/css/images/delete.png");
+	width:32px;
+	height:32px;	
+	border:0;
+}
+.export{
+	background:url("/css/images/export.png");
+	width:32px;
+	height:32px;	
+	border:0;
+}
+.share{
+	background:url("/css/images/share.png");
+	width:32px;
+	height:32px;	
+	border:0;
+}
+#tablechart{
+	
+	
+}
+#required{
+	color:#ff0000;
+	font-size:150%;
+}
+#getuserprofile{
+	overflow:auto;
+	height:300px;
+}
+
+
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 9pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 9pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(/css/images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(/css/images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(/css/images/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<datastore-indexes
+  autoGenerate="true">
+     <datastore-index kind="FullClientCrashDetails" ancestor="false" source="manual">
+        <property name="mode" direction="asc"/>
+        <property name="dateAddedInMillisecond" direction="asc"/>
+    </datastore-index>
+     <datastore-index kind="FullClientCrashDetails" ancestor="false" source="manual">
+        <property name="mode" direction="asc"/>
+        <property name="userEmailId" direction="asc"/>
+        <property name="dateAddedInMillisecond" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="FullClientCrashDetails" ancestor="false" source="manual">
+        <property name="userEmailId" direction="asc"/>
+        <property name="dateAddedInMillisecond" direction="asc"/>
+    </datastore-index>
+</datastore-indexes>

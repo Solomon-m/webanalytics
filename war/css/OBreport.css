@@ -1,0 +1,16 @@
+@CHARSET "UTF-8";
+.bodybgcolor{
+	background-color: #D5CBC1;
+
+}
+.fieldsetforObreport{
+   	height: 300px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: auto;
+}
+
+
+
+
